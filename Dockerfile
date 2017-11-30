@@ -10,7 +10,7 @@ LABEL Description="This image runs Schema-Repo, with an in-memory backend as def
 # Install minimum set of needed packages
 # Note 1: bash is installed in order to make it easier to run the schema-repo bash script file
 # Note 2: curl added to facilitate healtchecks
-RUN set -x && apk --update add --no-cache bash curl tar git
+RUN set -x && apk --update add --no-cache bash curl tar git && rm -rf /var/cache/apk/*
 
 ####################
 # Security hardening
