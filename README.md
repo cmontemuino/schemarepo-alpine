@@ -1,6 +1,11 @@
+[![Docker Pulls](https://img.shields.io/docker/pulls/cmontemuino/schemarepo-alpine.svg)](https://hub.docker.com/r/cmontemuino/schemarepo-alpine/)
+[![Docker Stars](https://img.shields.io/docker/stars/cmontemuino/schemarepo-alpine.svg)](https://hub.docker.com/r/cmontemuino/schemarepo-alpine/)
+[![](https://images.microbadger.com/badges/image/cmontemuino/schemarepo-alpine.svg)](https://microbadger.com/images/cmontemuino/schemarepo-alpine)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Schema-Repo on Apline Linux
 ===========================
-This repository contains an Alpine-based Docker with [schema-repo][schema-repo], published to the public Docker Hub via automated build mechanism.
+This repository contains an Alpine-based Docker with [schema-repo][schema-repo] v0.1.3, published to the public Docker Hub via automated build mechanism.
 
 Several measures have been applied for hardening the security of the resulting image. Please see the [security section](#security).
 
@@ -67,5 +72,5 @@ Please refer to [CHANGELOG.md](CHANGELOG.md) file to get the full the changelog 
 
 [gplv2-compatibility]: http://www.gnu.org/licenses/gpl-faq.html#AllCompatibility
 [openjdk-8-alpine]: https://hub.docker.com/_/openjdk/
-[schema-repo]: https://github.com/schema-repo/schema-repo
+[schema-repo]: [https://github.com/schema-repo/schema-repo]()
 [run-bash-script]: https://github.com/schema-repo/schema-repo/blob/master/run.sh
